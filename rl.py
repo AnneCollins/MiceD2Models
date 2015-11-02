@@ -2,7 +2,7 @@
 Runs learning models on a defined experiment.
 """
 
-from expe import Experiment
+from experiment import Experiment
 import models
 
 def run_rl():

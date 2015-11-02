@@ -17,7 +17,7 @@ def opal1(exp,alpha_g=0.1, alpha_n=0.1, alpha_c=0.1, beta_g=1, beta_n=1):
 
 
 
-def opal2(exp,alpha_g=0.1, alpha_n=0.1, alpha_c=0.1, beta_g=1, beta_n=1):
+def opal2(exp, alpha_g=0.1, alpha_n=0.1, alpha_c=0.1, beta_g=1, beta_n=1):
     """
     Encodes OpAL model type 2.
     :param exp: Experiment instance describing the structure of the experiment through which the model is run
