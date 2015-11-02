@@ -1,27 +1,27 @@
 """
-This is a file that will run a simple rl model.
+Runs learning models on a defined experiment.
 """
 
-import expe
+from expe import Experiment
 import models
+
+def run_rl():
+    '''
+    Run RL models on an experiment.
+    :return:
+    '''
+    exp = Experiment()
+    models.opal1(exp)
+    models.opal2(exp)
+
 
 def main():
     '''
-    This function will define an expe, run models on it, analyze it.
+    Defines an experiment, run models on it, analyzes it.
     :return:
     '''
     print('hello world')
-    runrl()
-
-def runrl():
-    '''
-    This function will run RL models on an experiment
-    :return:
-    '''
-    exp = expe.Expe()
-    models.m1(exp)
-    models.m2(exp)
-
+    run_rl()
 
 if __name__ == "__main__":
     main()

@@ -1,5 +1,9 @@
-#This defines the structure of the experiment
+'''
+Defines the structure of the experiment
+'''
 
-
-class Expe(object):
+class Experiment(object):
+    '''
+    Defines the structure of an experiment
+    '''
     n = 10
